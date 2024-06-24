@@ -1,0 +1,79 @@
+2024-06-21 14:26:50.193 +05:45 [INF] Token Generated for "59379335-7f9d-4c69-ad47-01188ae90530" with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImN1c3RvbWVyMSIsIlVzZXJJZCI6IjU5Mzc5MzM1LTdmOWQtNGM2OS1hZDQ3LTAxMTg4YWU5MDUzMCIsInJvbGUiOiJDdXN0b21lciIsIm5iZiI6MTcxODk1OTMxMCwiZXhwIjoxNzE4OTYxMTEwLCJpYXQiOjE3MTg5NTkzMTAsImlzcyI6Imh0dHBzOi8vbXlhcHAuY29tIiwiYXVkIjoiaHR0cHM6Ly9teWFwcC5jb20ifQ.ORxTYY5VJgUOkhAMcTXhZxJaxta91Wxq3FEk5smbO_A 
+2024-06-21 14:26:58.868 +05:45 [INF] Token Generated for "fa7f647c-7b61-4b22-8661-755446a9845e" with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiVXNlcklkIjoiZmE3ZjY0N2MtN2I2MS00YjIyLTg2NjEtNzU1NDQ2YTk4NDVlIiwicm9sZSI6IlN1cGVyQWRtaW4iLCJuYmYiOjE3MTg5NTkzMTgsImV4cCI6MTcxODk2MTExOCwiaWF0IjoxNzE4OTU5MzE4LCJpc3MiOiJodHRwczovL215YXBwLmNvbSIsImF1ZCI6Imh0dHBzOi8vbXlhcHAuY29tIn0.BhZeDfR1_U_mPjTShHxcCwvF3Mo4iJpCYb75ghaLFDA 
+2024-06-21 14:27:44.930 +05:45 [INF] User "fb36a233-6b21-4821-b188-fb9b25e31568" created Successfully
+2024-06-21 14:27:58.833 +05:45 [INF] Token Generated for "fb36a233-6b21-4821-b188-fb9b25e31568" with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InZlbmRvcjEiLCJVc2VySWQiOiJmYjM2YTIzMy02YjIxLTQ4MjEtYjE4OC1mYjliMjVlMzE1NjgiLCJyb2xlIjoiQ3VzdG9tZXIiLCJuYmYiOjE3MTg5NTkzNzgsImV4cCI6MTcxODk2MTE3OCwiaWF0IjoxNzE4OTU5Mzc4LCJpc3MiOiJodHRwczovL215YXBwLmNvbSIsImF1ZCI6Imh0dHBzOi8vbXlhcHAuY29tIn0.gPDLibyylM5cEHxtIRuC-Q-7GH1oAxVdMU5x31kN77Y 
+2024-06-21 14:30:50.032 +05:45 [INF] Token Generated for "fa7f647c-7b61-4b22-8661-755446a9845e" with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiVXNlcklkIjoiZmE3ZjY0N2MtN2I2MS00YjIyLTg2NjEtNzU1NDQ2YTk4NDVlIiwicm9sZSI6IlN1cGVyQWRtaW4iLCJuYmYiOjE3MTg5NTk1NTAsImV4cCI6MTcxODk2MTM1MCwiaWF0IjoxNzE4OTU5NTUwLCJpc3MiOiJodHRwczovL215YXBwLmNvbSIsImF1ZCI6Imh0dHBzOi8vbXlhcHAuY29tIn0.OIW9-b6BkT055EDwIV9rsMCC_GROxcJWGwuhSEqYyJI 
+2024-06-21 14:33:37.108 +05:45 [INF] Token Generated for "fb36a233-6b21-4821-b188-fb9b25e31568" with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InZlbmRvcjEiLCJVc2VySWQiOiJmYjM2YTIzMy02YjIxLTQ4MjEtYjE4OC1mYjliMjVlMzE1NjgiLCJyb2xlIjoiQ3VzdG9tZXIiLCJuYmYiOjE3MTg5NTk3MTcsImV4cCI6MTcxODk2MTUxNywiaWF0IjoxNzE4OTU5NzE3LCJpc3MiOiJodHRwczovL215YXBwLmNvbSIsImF1ZCI6Imh0dHBzOi8vbXlhcHAuY29tIn0.JCvWdU9bOLALftNR5Rh2STq24vuJgUiEZjhDzsvoVHc 
+2024-06-21 14:34:30.397 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:34:43.987 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:34:51.861 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:35:31.536 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:35:37.446 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:37:36.276 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:37:39.275 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:39:54.207 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:39:54.207 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:39:54.207 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:39:54.207 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:39:58.528 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:41:23.126 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:41:28.450 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:54:39.745 +05:45 [INF] User "3b81bb1a-04a1-4081-a781-5b9bba710c57" created Successfully
+2024-06-21 14:56:17.312 +05:45 [INF] Token Generated for "3b81bb1a-04a1-4081-a781-5b9bba710c57" with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImN1c3RvbWVyMiIsIlVzZXJJZCI6IjNiODFiYjFhLTA0YTEtNDA4MS1hNzgxLTViOWJiYTcxMGM1NyIsInJvbGUiOiJDdXN0b21lciIsIm5iZiI6MTcxODk2MTA3NywiZXhwIjoxNzE4OTYyODc3LCJpYXQiOjE3MTg5NjEwNzcsImlzcyI6Imh0dHBzOi8vbXlhcHAuY29tIiwiYXVkIjoiaHR0cHM6Ly9teWFwcC5jb20ifQ.jkVaR-Y9kv7EJ9f9BNlPhu1CU3ZZ-NDB5YeA-bLmuL0 
+2024-06-21 14:58:52.559 +05:45 [INF] Token Generated for "fa7f647c-7b61-4b22-8661-755446a9845e" with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiVXNlcklkIjoiZmE3ZjY0N2MtN2I2MS00YjIyLTg2NjEtNzU1NDQ2YTk4NDVlIiwicm9sZSI6IlN1cGVyQWRtaW4iLCJuYmYiOjE3MTg5NjEyMzIsImV4cCI6MTcxODk2MzAzMiwiaWF0IjoxNzE4OTYxMjMyLCJpc3MiOiJodHRwczovL215YXBwLmNvbSIsImF1ZCI6Imh0dHBzOi8vbXlhcHAuY29tIn0.xf54J8GAfCRjkDT1kNIiuTDXk-K4aqhfdikGhDDgTlg 
+2024-06-21 14:59:37.268 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 15:00:21.710 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 15:00:34.436 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 15:01:42.455 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 15:01:55.405 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 15:03:26.535 +05:45 [INF] User "fb36a233-6b21-4821-b188-fb9b25e31568" updated
+2024-06-21 15:04:07.920 +05:45 [INF] User "fb36a233-6b21-4821-b188-fb9b25e31568" updated
+2024-06-21 15:13:11.741 +05:45 [WRN] Invalid Credentials: {"Email":"customer1","Password":"customer1","$type":"LoginDetails"}
+2024-06-21 15:13:17.039 +05:45 [INF] Token Generated for "59379335-7f9d-4c69-ad47-01188ae90530" with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImN1c3RvbWVyMSIsIlVzZXJJZCI6IjU5Mzc5MzM1LTdmOWQtNGM2OS1hZDQ3LTAxMTg4YWU5MDUzMCIsInJvbGUiOiJDdXN0b21lciIsIm5iZiI6MTcxODk2MjA5NiwiZXhwIjoxNzE4OTYzODk2LCJpYXQiOjE3MTg5NjIwOTYsImlzcyI6Imh0dHBzOi8vbXlhcHAuY29tIiwiYXVkIjoiaHR0cHM6Ly9teWFwcC5jb20ifQ.jC-INVwGay23ByPAER4jMTBbM-05ZeLa5iYA8P-vKBk 
+2024-06-21 15:16:48.030 +05:45 [INF] User "59379335-7f9d-4c69-ad47-01188ae90530" updated successfully
+2024-06-21 15:24:22.898 +05:45 [INF] User "59379335-7f9d-4c69-ad47-01188ae90530" deleted successfully
+2024-06-21 15:28:21.669 +05:45 [INF] User "3b81bb1a-04a1-4081-a781-5b9bba710c57" updated
+2024-06-21 15:28:35.226 +05:45 [INF] User "3b81bb1a-04a1-4081-a781-5b9bba710c57" updated
+2024-06-21 15:29:01.446 +05:45 [INF] User "fb36a233-6b21-4821-b188-fb9b25e31568" updated
+2024-06-21 15:31:32.513 +05:45 [ERR] Error encountered while getting the Vendor of "00000000-0000-0000-0000-000000000000" 
+Vendor with Id 00000000-0000-0000-0000-000000000000 not found
+2024-06-21 15:36:03.935 +05:45 [WRN] Invalid Credentials: {"Email":"vendor1","Password":"vendor1","$type":"LoginDetails"}
+2024-06-21 15:36:17.370 +05:45 [INF] Token Generated for "fb36a233-6b21-4821-b188-fb9b25e31568" with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InZlbmRvcjEiLCJVc2VySWQiOiJmYjM2YTIzMy02YjIxLTQ4MjEtYjE4OC1mYjliMjVlMzE1NjgiLCJyb2xlIjoiVmVuZG9yIiwibmJmIjoxNzE4OTYzNDc3LCJleHAiOjE3MTg5NjUyNzcsImlhdCI6MTcxODk2MzQ3NywiaXNzIjoiaHR0cHM6Ly9teWFwcC5jb20iLCJhdWQiOiJodHRwczovL215YXBwLmNvbSJ9.F5wKIdtBfEDnv55YvswGxzrf5kkrQ-h7S9wiirlmXWE 
+2024-06-21 15:36:35.022 +05:45 [INF] Vendor "97bffb15-3a86-4199-ad96-e50d657decdd" updated successfully
+2024-06-21 15:38:58.210 +05:45 [INF] Vendor "97bffb15-3a86-4199-ad96-e50d657decdd" deleted successfully
+2024-06-21 15:48:09.362 +05:45 [ERR] Unable to create user with information {"FirstName":"vendor1","LastName":"string","PhoneNumber":"string","Address":"string","Image":{"ContentDisposition":"form-data; name=\"Image\"; filename=\"Screenshot (1).png\"","ContentType":"image/png","Headers":[{"Key":"Content-Disposition","Value":["form-data; name=\"Image\"; filename=\"Screenshot (1).png\""],"$type":"KeyValuePair`2"},{"Key":"Content-Type","Value":["image/png"],"$type":"KeyValuePair`2"}],"Length":276610,"Name":"Image","FileName":"Screenshot (1).png","$type":"FormFile"},"UserCredentials":{"UserName":"customer2","Password":"string","Email":"vendor1","$type":"CreateUserCredentials"},"ShippingDetails":{"District":"District","City":"City","StreetAddress":"String","$type":"ShippingDetails"},"$type":"CreateUserCommand"} 
+ User name or email already exists with the same name
+2024-06-21 15:48:27.376 +05:45 [INF] User "379ab638-083d-4cb7-9bd6-af9a069074a9" created Successfully
+2024-06-21 15:49:13.622 +05:45 [INF] Token Generated for "fa7f647c-7b61-4b22-8661-755446a9845e" with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiVXNlcklkIjoiZmE3ZjY0N2MtN2I2MS00YjIyLTg2NjEtNzU1NDQ2YTk4NDVlIiwicm9sZSI6IlN1cGVyQWRtaW4iLCJuYmYiOjE3MTg5NjQyNTMsImV4cCI6MTcxODk2NjA1MywiaWF0IjoxNzE4OTY0MjUzLCJpc3MiOiJodHRwczovL215YXBwLmNvbSIsImF1ZCI6Imh0dHBzOi8vbXlhcHAuY29tIn0.ZqLF4Hk8UKmD0RtAfg6_eaexVg65_eTTfYppyW1DGrk 
+2024-06-21 15:49:31.235 +05:45 [INF] User "379ab638-083d-4cb7-9bd6-af9a069074a9" updated
+2024-06-21 15:53:10.020 +05:45 [INF] Token Generated for "379ab638-083d-4cb7-9bd6-af9a069074a9" with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InZlbmRvcjEiLCJVc2VySWQiOiIzNzlhYjYzOC0wODNkLTRjYjctOWJkNi1hZjlhMDY5MDc0YTkiLCJyb2xlIjoiVmVuZG9yIiwibmJmIjoxNzE4OTY0NDkwLCJleHAiOjE3MTg5NjYyOTAsImlhdCI6MTcxODk2NDQ5MCwiaXNzIjoiaHR0cHM6Ly9teWFwcC5jb20iLCJhdWQiOiJodHRwczovL215YXBwLmNvbSJ9.QJKxsDbfKeFK1L8ZPXcBIeuaUXExxLeVFwR4fwefbl0 
+2024-06-21 15:53:23.657 +05:45 [INF] Product "db4d83c3-119b-4944-82dc-8dfd727883f1" created successfully
+2024-06-21 15:54:25.223 +05:45 [ERR] Error encountered while getting the Vendor of "97bffb15-3a86-4199-ad96-e50d657decdd" 
+Vendor with Id 97bffb15-3a86-4199-ad96-e50d657decdd not found
+2024-06-21 16:02:36.383 +05:45 [INF] Token Generated for "379ab638-083d-4cb7-9bd6-af9a069074a9" with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InZlbmRvcjEiLCJVc2VySWQiOiIzNzlhYjYzOC0wODNkLTRjYjctOWJkNi1hZjlhMDY5MDc0YTkiLCJyb2xlIjoiVmVuZG9yIiwibmJmIjoxNzE4OTY1MDU2LCJleHAiOjE3MTg5NjY4NTYsImlhdCI6MTcxODk2NTA1NiwiaXNzIjoiaHR0cHM6Ly9teWFwcC5jb20iLCJhdWQiOiJodHRwczovL215YXBwLmNvbSJ9.Y8UZJAbW_cr3YMN1U-iQc9bYvqiHsCqMX1qkgBUpnUs 
+2024-06-21 16:02:51.901 +05:45 [INF] Product db4d83c3-119b-4944-82dc-8dfd727883f1 updated successfully
+2024-06-21 16:10:16.525 +05:45 [WRN] Invalid Credentials: {"Email":"customer1","Password":"string","$type":"LoginDetails"}
+2024-06-21 16:10:35.918 +05:45 [INF] Token Generated for "3b81bb1a-04a1-4081-a781-5b9bba710c57" with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImN1c3RvbWVyMiIsIlVzZXJJZCI6IjNiODFiYjFhLTA0YTEtNDA4MS1hNzgxLTViOWJiYTcxMGM1NyIsInJvbGUiOiJDdXN0b21lciIsIm5iZiI6MTcxODk2NTUzNSwiZXhwIjoxNzE4OTY3MzM1LCJpYXQiOjE3MTg5NjU1MzUsImlzcyI6Imh0dHBzOi8vbXlhcHAuY29tIiwiYXVkIjoiaHR0cHM6Ly9teWFwcC5jb20ifQ.7g3j_olgr-HhOrRrgtJ4mcDBwdUKTPl0L87knDmfjRY 
+2024-06-21 16:10:53.487 +05:45 [ERR] Unable to find cart information for of "3b81bb1a-04a1-4081-a781-5b9bba710c57" 
+System.Exception: Cart does not exist for the specified user id
+   at CQRSApplication.Query.CustomerQuery.GetCartQueryHandler.Handle(GetCartQuery request, CancellationToken cancellationToken) in d:\EcommerceProject\cqrs2\src\Query\CustomerQuery\GetCartQueryHandler.cs:line 25
+   at CQRSApplication.Controllers.CustomerController.ViewCart(Guid CustomerId, CancellationToken cancellationToken) in d:\EcommerceProject\cqrs2\src\Controllers\CustomerController.cs:line 73
+2024-06-21 16:10:58.834 +05:45 [ERR] Unable to find cart information for of "3b81bb1a-04a1-4081-a781-5b9bba710c57" 
+System.Exception: Cart does not exist for the specified user id
+   at CQRSApplication.Query.CustomerQuery.GetCartQueryHandler.Handle(GetCartQuery request, CancellationToken cancellationToken) in d:\EcommerceProject\cqrs2\src\Query\CustomerQuery\GetCartQueryHandler.cs:line 25
+   at CQRSApplication.Controllers.CustomerController.ViewCart(Guid CustomerId, CancellationToken cancellationToken) in d:\EcommerceProject\cqrs2\src\Controllers\CustomerController.cs:line 73
+2024-06-21 16:15:04.295 +05:45 [ERR] Unable to find cart information for of "3b81bb1a-04a1-4081-a781-5b9bba710c57" 
+System.Exception: Cart does not exist for the specified user id
+   at CQRSApplication.Query.CustomerQuery.GetCartQueryHandler.Handle(GetCartQuery request, CancellationToken cancellationToken) in d:\EcommerceProject\cqrs2\src\Query\CustomerQuery\GetCartQueryHandler.cs:line 25
+   at CQRSApplication.Controllers.CustomerController.ViewCart(Guid CustomerId, CancellationToken cancellationToken) in d:\EcommerceProject\cqrs2\src\Controllers\CustomerController.cs:line 73
+2024-06-21 16:17:09.666 +05:45 [INF] Cart created for Customer "3b81bb1a-04a1-4081-a781-5b9bba710c57" 
+2024-06-21 16:17:22.665 +05:45 [ERR] Unable to find cart information for of "3b81bb1a-04a1-4081-a781-5b9bba710c57" 
+System.Exception: Cart is empty
+   at CQRSApplication.Query.CustomerQuery.GetCartQueryHandler.Handle(GetCartQuery request, CancellationToken cancellationToken) in d:\EcommerceProject\cqrs2\src\Query\CustomerQuery\GetCartQueryHandler.cs:line 29
+   at CQRSApplication.Controllers.CustomerController.ViewCart(Guid CustomerId, CancellationToken cancellationToken) in d:\EcommerceProject\cqrs2\src\Controllers\CustomerController.cs:line 73
+2024-06-21 16:18:41.960 +05:45 [INF] Cart created for Customer "3b81bb1a-04a1-4081-a781-5b9bba710c57" 
+2024-06-21 16:21:11.725 +05:45 [INF] Item "db4d83c3-119b-4944-82dc-8dfd727883f1" added to cart for "3b81bb1a-04a1-4081-a781-5b9bba710c57" 
+2024-06-21 16:23:51.137 +05:45 [INF] Item "db4d83c3-119b-4944-82dc-8dfd727883f1" removed from cart of "3b81bb1a-04a1-4081-a781-5b9bba710c57" 
+2024-06-21 16:24:05.582 +05:45 [INF] Item "db4d83c3-119b-4944-82dc-8dfd727883f1" added to cart for "3b81bb1a-04a1-4081-a781-5b9bba710c57" 
+2024-06-21 16:39:00.966 +05:45 [INF] Token Generated for "379ab638-083d-4cb7-9bd6-af9a069074a9" with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InZlbmRvcjEiLCJVc2VySWQiOiIzNzlhYjYzOC0wODNkLTRjYjctOWJkNi1hZjlhMDY5MDc0YTkiLCJyb2xlIjoiVmVuZG9yIiwibmJmIjoxNzE4OTY3MjQwLCJleHAiOjE3MTg5NjkwNDAsImlhdCI6MTcxODk2NzI0MCwiaXNzIjoiaHR0cHM6Ly9teWFwcC5jb20iLCJhdWQiOiJodHRwczovL215YXBwLmNvbSJ9.Sx1AOdfw265Y_kAJ7u5hLiaDblkNv8HPJrb47HnNhZk 
+2024-06-21 16:39:26.065 +05:45 [INF] Product "db4d83c3-119b-4944-82dc-8dfd727883f1" deleted successfully

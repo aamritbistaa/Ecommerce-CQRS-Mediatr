@@ -1,0 +1,41 @@
+2024-06-21 14:34:30.397 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:34:43.987 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:34:51.861 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:35:31.536 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:35:37.446 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:37:36.276 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:37:39.275 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:39:54.207 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:39:54.207 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:39:54.207 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:39:54.207 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:39:58.528 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:41:23.126 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:41:28.450 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 14:59:37.268 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 15:00:21.710 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 15:00:34.436 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 15:01:42.455 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 15:01:55.405 +05:45 [ERR] Unable to find User "00000000-0000-0000-0000-000000000000"
+2024-06-21 15:31:32.513 +05:45 [ERR] Error encountered while getting the Vendor of "00000000-0000-0000-0000-000000000000" 
+Vendor with Id 00000000-0000-0000-0000-000000000000 not found
+2024-06-21 15:48:09.362 +05:45 [ERR] Unable to create user with information {"FirstName":"vendor1","LastName":"string","PhoneNumber":"string","Address":"string","Image":{"ContentDisposition":"form-data; name=\"Image\"; filename=\"Screenshot (1).png\"","ContentType":"image/png","Headers":[{"Key":"Content-Disposition","Value":["form-data; name=\"Image\"; filename=\"Screenshot (1).png\""],"$type":"KeyValuePair`2"},{"Key":"Content-Type","Value":["image/png"],"$type":"KeyValuePair`2"}],"Length":276610,"Name":"Image","FileName":"Screenshot (1).png","$type":"FormFile"},"UserCredentials":{"UserName":"customer2","Password":"string","Email":"vendor1","$type":"CreateUserCredentials"},"ShippingDetails":{"District":"District","City":"City","StreetAddress":"String","$type":"ShippingDetails"},"$type":"CreateUserCommand"} 
+ User name or email already exists with the same name
+2024-06-21 15:54:25.223 +05:45 [ERR] Error encountered while getting the Vendor of "97bffb15-3a86-4199-ad96-e50d657decdd" 
+Vendor with Id 97bffb15-3a86-4199-ad96-e50d657decdd not found
+2024-06-21 16:10:53.487 +05:45 [ERR] Unable to find cart information for of "3b81bb1a-04a1-4081-a781-5b9bba710c57" 
+System.Exception: Cart does not exist for the specified user id
+   at CQRSApplication.Query.CustomerQuery.GetCartQueryHandler.Handle(GetCartQuery request, CancellationToken cancellationToken) in d:\EcommerceProject\cqrs2\src\Query\CustomerQuery\GetCartQueryHandler.cs:line 25
+   at CQRSApplication.Controllers.CustomerController.ViewCart(Guid CustomerId, CancellationToken cancellationToken) in d:\EcommerceProject\cqrs2\src\Controllers\CustomerController.cs:line 73
+2024-06-21 16:10:58.834 +05:45 [ERR] Unable to find cart information for of "3b81bb1a-04a1-4081-a781-5b9bba710c57" 
+System.Exception: Cart does not exist for the specified user id
+   at CQRSApplication.Query.CustomerQuery.GetCartQueryHandler.Handle(GetCartQuery request, CancellationToken cancellationToken) in d:\EcommerceProject\cqrs2\src\Query\CustomerQuery\GetCartQueryHandler.cs:line 25
+   at CQRSApplication.Controllers.CustomerController.ViewCart(Guid CustomerId, CancellationToken cancellationToken) in d:\EcommerceProject\cqrs2\src\Controllers\CustomerController.cs:line 73
+2024-06-21 16:15:04.295 +05:45 [ERR] Unable to find cart information for of "3b81bb1a-04a1-4081-a781-5b9bba710c57" 
+System.Exception: Cart does not exist for the specified user id
+   at CQRSApplication.Query.CustomerQuery.GetCartQueryHandler.Handle(GetCartQuery request, CancellationToken cancellationToken) in d:\EcommerceProject\cqrs2\src\Query\CustomerQuery\GetCartQueryHandler.cs:line 25
+   at CQRSApplication.Controllers.CustomerController.ViewCart(Guid CustomerId, CancellationToken cancellationToken) in d:\EcommerceProject\cqrs2\src\Controllers\CustomerController.cs:line 73
+2024-06-21 16:17:22.665 +05:45 [ERR] Unable to find cart information for of "3b81bb1a-04a1-4081-a781-5b9bba710c57" 
+System.Exception: Cart is empty
+   at CQRSApplication.Query.CustomerQuery.GetCartQueryHandler.Handle(GetCartQuery request, CancellationToken cancellationToken) in d:\EcommerceProject\cqrs2\src\Query\CustomerQuery\GetCartQueryHandler.cs:line 29
+   at CQRSApplication.Controllers.CustomerController.ViewCart(Guid CustomerId, CancellationToken cancellationToken) in d:\EcommerceProject\cqrs2\src\Controllers\CustomerController.cs:line 73
