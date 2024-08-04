@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oGQR/zAmUS8VQdqOkTOpS5pcgyCOzJJvz4HZdP5Wl2w=",
+  "Source": "CQRS.Ecommerce.Api",
+  "BasePath": "_content/CQRS.Ecommerce.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

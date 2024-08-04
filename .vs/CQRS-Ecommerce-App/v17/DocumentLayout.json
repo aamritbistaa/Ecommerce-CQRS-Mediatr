@@ -1,0 +1,242 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF37F47-BF37-4465-95A7-F19A1F0749C1}|CQRS.Ecommerce.Api\\CQRS.Ecommerce.Api.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\cqrs.ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF37F47-BF37-4465-95A7-F19A1F0749C1}|CQRS.Ecommerce.Api\\CQRS.Ecommerce.Api.csproj|solutionrelative:cqrs.ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF37F47-BF37-4465-95A7-F19A1F0749C1}|CQRS.Ecommerce.Api\\CQRS.Ecommerce.Api.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\cqrs.ecommerce.api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF37F47-BF37-4465-95A7-F19A1F0749C1}|CQRS.Ecommerce.Api\\CQRS.Ecommerce.Api.csproj|solutionrelative:cqrs.ecommerce.api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2E4B35-8464-4BDD-9A4E-E2BA67E00703}|CQRS.Ecommerce.Application\\CQRS.Ecommerce.Application.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\cqrs.ecommerce.application\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2E4B35-8464-4BDD-9A4E-E2BA67E00703}|CQRS.Ecommerce.Application\\CQRS.Ecommerce.Application.csproj|solutionrelative:cqrs.ecommerce.application\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B32599B-D620-4CAB-A230-43A5D0EBBC11}|CQRS.Ecommerce.Domain\\CQRS.Ecommerce.Domain.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\cqrs.ecommerce.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B32599B-D620-4CAB-A230-43A5D0EBBC11}|CQRS.Ecommerce.Domain\\CQRS.Ecommerce.Domain.csproj|solutionrelative:cqrs.ecommerce.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2E4B35-8464-4BDD-9A4E-E2BA67E00703}|CQRS.Ecommerce.Application\\CQRS.Ecommerce.Application.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\cqrs.ecommerce.application\\features\\products\\requests\\getallproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2E4B35-8464-4BDD-9A4E-E2BA67E00703}|CQRS.Ecommerce.Application\\CQRS.Ecommerce.Application.csproj|solutionrelative:cqrs.ecommerce.application\\features\\products\\requests\\getallproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2E4B35-8464-4BDD-9A4E-E2BA67E00703}|CQRS.Ecommerce.Application\\CQRS.Ecommerce.Application.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\cqrs.ecommerce.application\\features\\products\\handlers\\queries\\getallproductrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2E4B35-8464-4BDD-9A4E-E2BA67E00703}|CQRS.Ecommerce.Application\\CQRS.Ecommerce.Application.csproj|solutionrelative:cqrs.ecommerce.application\\features\\products\\handlers\\queries\\getallproductrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF1E2A3-6614-40D0-B419-0C614066B129}|CQRS.Ecommerce.Infrastructure\\CQRS.Ecommerce.Infrastructure.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\cqrs.ecommerce.infrastructure\\cqrs.ecommerce.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2BF1E2A3-6614-40D0-B419-0C614066B129}|CQRS.Ecommerce.Infrastructure\\CQRS.Ecommerce.Infrastructure.csproj|solutionrelative:cqrs.ecommerce.infrastructure\\cqrs.ecommerce.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF1E2A3-6614-40D0-B419-0C614066B129}|CQRS.Ecommerce.Infrastructure\\CQRS.Ecommerce.Infrastructure.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\cqrs.ecommerce.infrastructure\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF1E2A3-6614-40D0-B419-0C614066B129}|CQRS.Ecommerce.Infrastructure\\CQRS.Ecommerce.Infrastructure.csproj|solutionrelative:cqrs.ecommerce.infrastructure\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF1E2A3-6614-40D0-B419-0C614066B129}|CQRS.Ecommerce.Infrastructure\\CQRS.Ecommerce.Infrastructure.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\cqrs.ecommerce.infrastructure\\persistence\\ecommercedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BF1E2A3-6614-40D0-B419-0C614066B129}|CQRS.Ecommerce.Infrastructure\\CQRS.Ecommerce.Infrastructure.csproj|solutionrelative:cqrs.ecommerce.infrastructure\\persistence\\ecommercedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF37F47-BF37-4465-95A7-F19A1F0749C1}|CQRS.Ecommerce.Api\\CQRS.Ecommerce.Api.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\cqrs.ecommerce.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3EF37F47-BF37-4465-95A7-F19A1F0749C1}|CQRS.Ecommerce.Api\\CQRS.Ecommerce.Api.csproj|solutionrelative:cqrs.ecommerce.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF37F47-BF37-4465-95A7-F19A1F0749C1}|CQRS.Ecommerce.Api\\CQRS.Ecommerce.Api.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\cqrs.ecommerce.api\\cqrs.ecommerce.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3EF37F47-BF37-4465-95A7-F19A1F0749C1}|CQRS.Ecommerce.Api\\CQRS.Ecommerce.Api.csproj|solutionrelative:cqrs.ecommerce.api\\cqrs.ecommerce.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Infrastructure\\Seeders\\IEcommerceSeeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CQRS.Ecommerce.Infrastructure\\Seeders\\IEcommerceSeeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Infrastructure\\Seeders\\EcommerceSeeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CQRS.Ecommerce.Infrastructure\\Seeders\\EcommerceSeeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Api\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "CQRS.Ecommerce.Api\\Controllers\\TestController.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Api\\Controllers\\TestController.cs",
+              "RelativeToolTip": "CQRS.Ecommerce.Api\\Controllers\\TestController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAowCMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T02:15:02.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAllProductRequest.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Application\\Features\\Products\\Requests\\GetAllProductRequest.cs",
+              "RelativeDocumentMoniker": "CQRS.Ecommerce.Application\\Features\\Products\\Requests\\GetAllProductRequest.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Application\\Features\\Products\\Requests\\GetAllProductRequest.cs",
+              "RelativeToolTip": "CQRS.Ecommerce.Application\\Features\\Products\\Requests\\GetAllProductRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:06:26.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEcommerceSeeder.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Infrastructure\\Seeders\\IEcommerceSeeder.cs",
+              "RelativeDocumentMoniker": "CQRS.Ecommerce.Infrastructure\\Seeders\\IEcommerceSeeder.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Infrastructure\\Seeders\\IEcommerceSeeder.cs",
+              "RelativeToolTip": "CQRS.Ecommerce.Infrastructure\\Seeders\\IEcommerceSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T17:52:10.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EcommerceSeeder.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Infrastructure\\Seeders\\EcommerceSeeder.cs",
+              "RelativeDocumentMoniker": "CQRS.Ecommerce.Infrastructure\\Seeders\\EcommerceSeeder.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Infrastructure\\Seeders\\EcommerceSeeder.cs",
+              "RelativeToolTip": "CQRS.Ecommerce.Infrastructure\\Seeders\\EcommerceSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T17:45:16.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EcommerceDbContext.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Infrastructure\\Persistence\\EcommerceDbContext.cs",
+              "RelativeDocumentMoniker": "CQRS.Ecommerce.Infrastructure\\Persistence\\EcommerceDbContext.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Infrastructure\\Persistence\\EcommerceDbContext.cs",
+              "RelativeToolTip": "CQRS.Ecommerce.Infrastructure\\Persistence\\EcommerceDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T16:25:58.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "CQRS.Ecommerce.Domain\\Entities\\Product.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "CQRS.Ecommerce.Domain\\Entities\\Product.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAIwA4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T16:14:37.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Application\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "CQRS.Ecommerce.Application\\ServiceCollectionExtension.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Application\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "CQRS.Ecommerce.Application\\ServiceCollectionExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T02:17:17.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetAllProductRequestHandler.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Application\\Features\\Products\\Handlers\\Queries\\GetAllProductRequestHandler.cs",
+              "RelativeDocumentMoniker": "CQRS.Ecommerce.Application\\Features\\Products\\Handlers\\Queries\\GetAllProductRequestHandler.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Application\\Features\\Products\\Handlers\\Queries\\GetAllProductRequestHandler.cs",
+              "RelativeToolTip": "CQRS.Ecommerce.Application\\Features\\Products\\Handlers\\Queries\\GetAllProductRequestHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T18:07:53.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Infrastructure\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "CQRS.Ecommerce.Infrastructure\\ServiceCollectionExtension.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Infrastructure\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "CQRS.Ecommerce.Infrastructure\\ServiceCollectionExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T16:24:22.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "CQRS.Ecommerce.Api\\appsettings.json",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Api\\appsettings.json",
+              "RelativeToolTip": "CQRS.Ecommerce.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-01T16:29:11.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CQRS.Ecommerce.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Infrastructure\\CQRS.Ecommerce.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "CQRS.Ecommerce.Infrastructure\\CQRS.Ecommerce.Infrastructure.csproj",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Infrastructure\\CQRS.Ecommerce.Infrastructure.csproj",
+              "RelativeToolTip": "CQRS.Ecommerce.Infrastructure\\CQRS.Ecommerce.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-01T17:12:10.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CQRS.Ecommerce.Api.csproj",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Api\\CQRS.Ecommerce.Api.csproj",
+              "RelativeDocumentMoniker": "CQRS.Ecommerce.Api\\CQRS.Ecommerce.Api.csproj",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Api\\CQRS.Ecommerce.Api.csproj",
+              "RelativeToolTip": "CQRS.Ecommerce.Api\\CQRS.Ecommerce.Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-01T17:12:25.528Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Api\\Program.cs",
+              "RelativeDocumentMoniker": "CQRS.Ecommerce.Api\\Program.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Api\\Program.cs",
+              "RelativeToolTip": "CQRS.Ecommerce.Api\\Program.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAIwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T16:37:52.964Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

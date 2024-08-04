@@ -1,3 +1,0 @@
-2024-06-21 15:13:11.741 +05:45 [WRN] Invalid Credentials: {"Email":"customer1","Password":"customer1","$type":"LoginDetails"}
-2024-06-21 15:36:03.935 +05:45 [WRN] Invalid Credentials: {"Email":"vendor1","Password":"vendor1","$type":"LoginDetails"}
-2024-06-21 16:10:16.525 +05:45 [WRN] Invalid Credentials: {"Email":"customer1","Password":"string","$type":"LoginDetails"}

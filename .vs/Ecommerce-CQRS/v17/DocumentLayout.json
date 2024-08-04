@@ -1,0 +1,115 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Api\\Controllers\\ProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CQRSApplication.Api\\Controllers\\ProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CQRSApplication.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Infrastructure\\CQRSApplication.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CQRSApplication.Infrastructure\\CQRSApplication.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Domain\\CQRSApplication.Domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CQRSApplication.Domain\\CQRSApplication.Domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Application\\CQRSApplication.Application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CQRSApplication.Application\\CQRSApplication.Application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Api\\CQRSApplication.Api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CQRSApplication.Api\\CQRSApplication.Api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "CQRSApplication.Api\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Api\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "CQRSApplication.Api\\Controllers\\ProductController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T18:33:38.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Api\\Program.cs",
+              "RelativeDocumentMoniker": "CQRSApplication.Api\\Program.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Api\\Program.cs",
+              "RelativeToolTip": "CQRSApplication.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T18:33:01.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CQRSApplication.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Infrastructure\\CQRSApplication.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "CQRSApplication.Infrastructure\\CQRSApplication.Infrastructure.csproj",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Infrastructure\\CQRSApplication.Infrastructure.csproj",
+              "RelativeToolTip": "CQRSApplication.Infrastructure\\CQRSApplication.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-27T18:26:31.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CQRSApplication.Domain.csproj",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Domain\\CQRSApplication.Domain.csproj",
+              "RelativeDocumentMoniker": "CQRSApplication.Domain\\CQRSApplication.Domain.csproj",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Domain\\CQRSApplication.Domain.csproj",
+              "RelativeToolTip": "CQRSApplication.Domain\\CQRSApplication.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-27T18:26:28.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CQRSApplication.Application.csproj",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Application\\CQRSApplication.Application.csproj",
+              "RelativeDocumentMoniker": "CQRSApplication.Application\\CQRSApplication.Application.csproj",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Application\\CQRSApplication.Application.csproj",
+              "RelativeToolTip": "CQRSApplication.Application\\CQRSApplication.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-27T18:26:22.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CQRSApplication.Api.csproj",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Api\\CQRSApplication.Api.csproj",
+              "RelativeDocumentMoniker": "CQRSApplication.Api\\CQRSApplication.Api.csproj",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRSApplication.Api\\CQRSApplication.Api.csproj",
+              "RelativeToolTip": "CQRSApplication.Api\\CQRSApplication.Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-27T18:26:11.293Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

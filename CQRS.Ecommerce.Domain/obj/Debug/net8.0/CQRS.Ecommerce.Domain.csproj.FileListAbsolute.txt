@@ -1,0 +1,12 @@
+D:\source\repos\Ecommerce-CQRS-Mediatr\CQRS.Ecommerce.Domain\bin\Debug\net8.0\CQRS.Ecommerce.Domain.deps.json
+D:\source\repos\Ecommerce-CQRS-Mediatr\CQRS.Ecommerce.Domain\bin\Debug\net8.0\CQRS.Ecommerce.Domain.dll
+D:\source\repos\Ecommerce-CQRS-Mediatr\CQRS.Ecommerce.Domain\bin\Debug\net8.0\CQRS.Ecommerce.Domain.pdb
+D:\source\repos\Ecommerce-CQRS-Mediatr\CQRS.Ecommerce.Domain\obj\Debug\net8.0\CQRS.Ecommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\Ecommerce-CQRS-Mediatr\CQRS.Ecommerce.Domain\obj\Debug\net8.0\CQRS.Ecommerce.Domain.AssemblyInfoInputs.cache
+D:\source\repos\Ecommerce-CQRS-Mediatr\CQRS.Ecommerce.Domain\obj\Debug\net8.0\CQRS.Ecommerce.Domain.AssemblyInfo.cs
+D:\source\repos\Ecommerce-CQRS-Mediatr\CQRS.Ecommerce.Domain\obj\Debug\net8.0\CQRS.Ecommerce.Domain.csproj.CoreCompileInputs.cache
+D:\source\repos\Ecommerce-CQRS-Mediatr\CQRS.Ecommerce.Domain\obj\Debug\net8.0\CQRS.Ecommerce.Domain.sourcelink.json
+D:\source\repos\Ecommerce-CQRS-Mediatr\CQRS.Ecommerce.Domain\obj\Debug\net8.0\CQRS.Ecommerce.Domain.dll
+D:\source\repos\Ecommerce-CQRS-Mediatr\CQRS.Ecommerce.Domain\obj\Debug\net8.0\refint\CQRS.Ecommerce.Domain.dll
+D:\source\repos\Ecommerce-CQRS-Mediatr\CQRS.Ecommerce.Domain\obj\Debug\net8.0\CQRS.Ecommerce.Domain.pdb
+D:\source\repos\Ecommerce-CQRS-Mediatr\CQRS.Ecommerce.Domain\obj\Debug\net8.0\ref\CQRS.Ecommerce.Domain.dll
