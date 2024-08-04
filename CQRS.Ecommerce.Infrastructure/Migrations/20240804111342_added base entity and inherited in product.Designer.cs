@@ -3,6 +3,7 @@ using System;
 using CQRS.Ecommerce.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace CQRS.Ecommerce.Infrastructure.Migrations
 {
     [DbContext(typeof(EcommerceDbContext))]
-    partial class EcommerceDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240804111342_added base entity and inherited in product")]
+    partial class addedbaseentityandinheritedinproduct
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

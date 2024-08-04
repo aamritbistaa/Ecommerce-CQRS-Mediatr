@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CQRS.Ecommerce.Application.Features.Products.Requests
 {
-    public class GetAllProductRequest : IRequest<ServiceResult<List<Product>>>
+    public class GetAllProductQuery : IRequest<ServiceResult<List<Product>>>
     {
 
     }

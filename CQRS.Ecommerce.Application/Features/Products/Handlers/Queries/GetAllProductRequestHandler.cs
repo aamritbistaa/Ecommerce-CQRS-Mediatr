@@ -10,7 +10,7 @@ using MediatR;
 
 namespace CQRS.Ecommerce.Application.Features.Products.Handlers.Queries
 {
-    public class GetAllProductRequestHandler : IRequestHandler<GetAllProductRequest, ServiceResult<List<Product>>>
+    public class GetAllProductRequestHandler : IRequestHandler<GetAllProductQuery, ServiceResult<List<Product>>>
     {
         public IProductService _service;
 
@@ -19,10 +19,10 @@ namespace CQRS.Ecommerce.Application.Features.Products.Handlers.Queries
             _service = service;
         }
 
-        public async Task<ServiceResult<List<Product>>> Handle(GetAllProductRequest request, CancellationToken cancellationToken)
+        public async Task<ServiceResult<List<Product>>> Handle(GetAllProductQuery request, CancellationToken cancellationToken)
         {
 
-            var data = await _service.GetAllProduct();
+            var data = await _service.GetAllProductAsync();
             if (data.Any())
             {
 

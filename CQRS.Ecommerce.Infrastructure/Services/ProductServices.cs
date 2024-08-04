@@ -16,18 +16,18 @@ namespace CQRS.Ecommerce.Infrastructure
             _context = context;
         }
 
-        public async Task<List<Product>> GetAllProduct()
+        public async Task<List<Product>> GetAllProductAsync()
         {
             var result = await _context.Products.ToListAsync();
             return result;
         }
 
-        public async Task<Product> GetProductById(int id)
+        public async Task<Product> GetProductByIdAsync(Guid id)
         {
             return await _context.Products.FindAsync(id);
         }
 
-        public async Task<bool> CreateProduct(Product product)
+        public async Task<bool> CreateProductAsync(Product product)
         {
             try
             {
@@ -41,7 +41,7 @@ namespace CQRS.Ecommerce.Infrastructure
             }
         }
 
-        public async Task<bool> UpdateProduct(Product product)
+        public async Task<bool> UpdateProductAsync(Product product)
         {
             try
             {
@@ -55,7 +55,7 @@ namespace CQRS.Ecommerce.Infrastructure
             }
         }
 
-        public async Task<bool> DeleteProduct(Product product)
+        public async Task<bool> DeleteProductAsync(Product product)
         {
             try
             {

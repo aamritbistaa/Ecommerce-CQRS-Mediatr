@@ -7,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace CQRS.Ecommerce.Domain.Entities
 {
-    public class Product
+    public class Product : BaseEntity
     {
-        [Key]
-        public Guid Id { get; set; }
         [Required, StringLength(30, MinimumLength = 4)]
         public string Name { get; set; }
         [StringLength(80, MinimumLength = 4)]
@@ -22,9 +20,7 @@ namespace CQRS.Ecommerce.Domain.Entities
         public int Stock { get; set; }
         public string? ImageUrl { get; set; }
         [Required]
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
-        [Required]
         public Guid VendorId { get; set; }
+
     }
 }

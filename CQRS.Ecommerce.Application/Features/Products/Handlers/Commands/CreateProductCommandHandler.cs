@@ -24,7 +24,7 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
             Stock = request.Stock,
             VendorId = request.VendorId,
         };
-        var result = await _service.CreateProduct(item);
+        var result = await _service.CreateProductAsync(item);
 
         if (result is true)
         {

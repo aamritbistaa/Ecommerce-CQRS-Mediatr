@@ -4,9 +4,9 @@ namespace CQRS.Ecommerce.Domain;
 
 public interface IProductService
 {
-    Task<List<Product>> GetAllProduct();
-    Task<Product> GetProductById(int id);
-    Task<bool> CreateProduct(Product product);
-    Task<bool> UpdateProduct(Product product);
-    Task<bool> DeleteProduct(Product product);
+    Task<List<Product>> GetAllProductAsync();
+    Task<Product> GetProductByIdAsync(Guid id);
+    Task<bool> CreateProductAsync(Product product);
+    Task<bool> UpdateProductAsync(Product product);
+    Task<bool> DeleteProductAsync(Product product);
 }

@@ -19,13 +19,18 @@ public class ProductController : ControllerBase
     [HttpGet("GetAllProduct")]
     public async Task<ServiceResult<List<Product>>> GetAllProduct()
     {
-        var result = await _mediator.Send(new GetAllProductRequest { });
+        var result = await _mediator.Send(new GetAllProductQuery { });
         return result;
     }
-    [HttpGet("GetProductById")]
-    public async Task<IActionResult> GetProductById()
+    [HttpGet("GetProductById/{id:guid}")]
+    public async Task<ServiceResult<Product>> GetProductById([FromRoute] Guid id)
     {
-        return Ok();
+        var request = new GetProductByIdQuery
+        {
+            Id = id,
+        };
+        var result = await _mediator.Send(request);
+        return result;
     }
 
     [HttpPost("CreateProduct")]
@@ -35,14 +40,21 @@ public class ProductController : ControllerBase
         return result;
     }
     [HttpPut("UpdateProduct")]
-    public async Task<IActionResult> UpdateProduct()
+    public async Task<ServiceResult<bool>> UpdateProduct(UpdateProductCommand request)
     {
-        return Ok();
+        var result = await _mediator.Send(request);
+        return result;
     }
-    [HttpDelete("DeleteProduct")]
-    public async Task<IActionResult> DeleteProduct()
+    [HttpPut("DeleteProduct")]
+    public async Task<ServiceResult<bool>> DeleteProduct(DeleteProductCommand request)
     {
-        return Ok();
+        var result = await _mediator.Send(request);
+        return result;
     }
-
+    [HttpDelete("PermaDeleteProduct")]
+    public async Task<ServiceResult<bool>> PermaDeleteProduct(PermaDeleteProductCommand request)
+    {
+        var result = await _mediator.Send(request);
+        return result;
+    }
 }
