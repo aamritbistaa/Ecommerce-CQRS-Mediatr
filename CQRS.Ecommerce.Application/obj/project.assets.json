@@ -142,11 +142,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Application\\CQRS.Ecommerce.Application.csproj",
+      "projectUniqueName": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Application\\CQRS.Ecommerce.Application.csproj",
       "projectName": "CQRS.Ecommerce.Application",
-      "projectPath": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Application\\CQRS.Ecommerce.Application.csproj",
+      "projectPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Application\\CQRS.Ecommerce.Application.csproj",
       "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
-      "outputPath": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Application\\obj\\",
+      "outputPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -164,8 +164,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Domain\\CQRS.Ecommerce.Domain.csproj": {
-              "projectPath": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Domain\\CQRS.Ecommerce.Domain.csproj"
+            "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Domain\\CQRS.Ecommerce.Domain.csproj": {
+              "projectPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Domain\\CQRS.Ecommerce.Domain.csproj"
             }
           }
         }

@@ -2477,8 +2477,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Application\\CQRS.Ecommerce.Application.csproj": {
-              "projectPath": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Application\\CQRS.Ecommerce.Application.csproj"
+            "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Application\\CQRS.Ecommerce.Application.csproj": {
+              "projectPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\CQRS.Ecommerce.Application\\CQRS.Ecommerce.Application.csproj"
             }
           }
         }
