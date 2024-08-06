@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CQRS.Ecommerce.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+965c438dc0767bcf547d94586d8660f41b2cfe1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e13e6e1ed7dca880042bb2dd19783cf80e669fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("CQRS.Ecommerce.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CQRS.Ecommerce.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

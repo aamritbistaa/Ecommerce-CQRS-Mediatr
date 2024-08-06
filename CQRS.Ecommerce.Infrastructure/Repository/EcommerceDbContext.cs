@@ -6,10 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CQRS.Ecommerce.Infrastructure.Persistence
+namespace CQRS.Ecommerce.Infrastructure.Repository
 {
     public class EcommerceDbContext : DbContext
     {
+        public EcommerceDbContext()
+        {
+
+        }
         public EcommerceDbContext(DbContextOptions<EcommerceDbContext> opt) : base(opt)
         {
 
