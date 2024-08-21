@@ -1,0 +1,153 @@
+entity-relationship-diagram
+Customer [color:green, icon:user]{
+  Id Guid
+  FirstName string
+  LastName string
+  ProfilePicName string
+  ShippingId Guid Fk
+  DOB DateTime
+}
+
+
+ShippingAddress{
+  Id Guid
+  CountryId int Fk
+  CityId int FK
+  StreetAddress string
+}
+City{
+  Id int
+  Name string
+  CountryId int FK
+}
+Country{
+  Id int
+  Name string
+}
+Customer.ShippingId  - ShippingAddress.Id
+ShippingAddress.CountryId - Country.Id 
+ShippingAddress.CityId - City.Id
+City.CountryId - Country.Id 
+
+
+Vendor[icon:user,color:green]{
+  Id Guid PK
+  ShopName string
+  ShopLogo guid
+  RegistrationNo string
+  Size enum[small,medium,large]
+}
+
+UserCredentials{
+  Id Guid Pk
+  Email string
+  Password string
+  Salt string
+  LastActive DateTime
+  Token
+  Role enum
+}
+
+User[color:green,icon:user]{
+  Id Pk
+  UserId Guid
+  UserCredentialsId Guid
+}
+User.UserCredentialsId - UserCredentials.Id
+
+User.UserId - Vendor.Id
+User.UserId - Customer.Id
+
+
+Product[color:blue]{
+Id Guid
+VendorId Guid Fk
+Name string
+CategoryId int
+ProductDetailsId Guid
+ProductImage Guid[]
+RatingsAndReview Guid[]
+Discount float
+QNA Guid
+}
+
+ProductDetails{
+  Id Guid
+  Stock int
+  SizeId int
+  ColorId int
+}
+Product.ProductDetailsId - ProductDetails.Id
+
+
+Product.CategoryId - Category.Id
+
+
+Color{
+  Id int
+  Name string
+}
+ProductDetails.ColorId - Color.Id
+
+
+Category{
+ Id int
+ Name string
+ SubCategoryId int?
+}
+SubCategory{
+  Id int
+  Name string
+}
+Category.SubCategoryId - SubCategory.Id
+
+RatingsAndReview{
+  Id Guid
+  ProductId Guid
+
+  CustomerId Guid
+  CustomerName Guid
+
+  Pictures Guid[]
+  DatePosted DateTime
+
+  Rating int
+}
+Product.RatingsAndReview < RatingsAndReview.Id
+
+QNA{
+  Id Guid
+  ProductId Guid
+  CustomerId Guid
+  CustomerName Guid
+  DatePosted DateTime
+  CustomerQuestion
+  VendorResposne
+}
+Product.QNA < QNA.Id
+
+WishList[color:orange]{
+  Id Guid
+  ProductId Guid
+  Quantity int
+}
+Customer.WishList - WishList.Id
+
+
+Order{
+  Id
+  OrderItemId Guid
+  CustomerId Guid
+  OrderValue double
+  OTP 5digitINT
+  Status 
+}
+OrderItem{
+  Id Guid
+  ProductId Guid
+  Quantity int
+
+  Status enum
+  Price float
+}
+Order.OrderItemId < OrderItem.Id

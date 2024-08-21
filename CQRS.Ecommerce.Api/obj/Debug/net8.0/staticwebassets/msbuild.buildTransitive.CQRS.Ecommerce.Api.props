@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\CQRS.Ecommerce.Api.props" />
-</Project>
