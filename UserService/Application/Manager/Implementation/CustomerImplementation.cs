@@ -1,5 +1,6 @@
 using Application.Common;
 using Application.DTO;
+using Application.Helper;
 using Application.Manager.Interface;
 using Application.Mapper;
 using Domain.Entity;
@@ -13,12 +14,14 @@ public class CustomerImplementation : ICustomerImplementation
     private readonly IUserCredentialsService _userCredentialsService;
     private readonly IUserService _userService;
     private readonly IServiceFactory _factory;
-    public CustomerImplementation(ICustomerService customerService, IUserCredentialsService userCredentialsService, IUserService userService, IServiceFactory factory)
+    private readonly IFileService _fileService;
+    public CustomerImplementation(ICustomerService customerService, IUserCredentialsService userCredentialsService, IUserService userService, IServiceFactory factory, IFileService fileService)
     {
         _customerService = customerService;
         _userCredentialsService = userCredentialsService;
         _userService = userService;
         _factory = factory;
+        _fileService = fileService;
     }
     public async Task<ServiceResult<List<CustomerResponse>>> ListAllCustomer()
     {
@@ -62,6 +65,7 @@ public class CustomerImplementation : ICustomerImplementation
     }
     public async Task<ServiceResult<Guid?>> CreateCustomer(CreateCustomerRequestDto request)
     {
+        //! Validation
         #region Validation
         var dataWithSameEmail = await _userCredentialsService.GetByEmail(request.Email);
         if (dataWithSameEmail != null)
@@ -87,12 +91,16 @@ public class CustomerImplementation : ICustomerImplementation
                 Role = UserRole.Customer,
             };
             var customerCredentialsResponse = await _userCredentialsService.AddItemAsync(customerCredentials);
+
+            var imageName = await _fileService.UploadFileAsync(request.ProfilePicture);
+
             var customer = new ECustomer()
             {
                 FirstName = request.FirstName,
                 LastName = request.LastName,
                 MiddleName = request.MiddleName,
                 DateOfBirth = request.DateOfBirth,
+                ProfilePicture = imageName
             };
             var customerResponse = await _customerService.AddItemAsync(customer);
             var user = new EUser()

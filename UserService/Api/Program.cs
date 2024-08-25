@@ -1,5 +1,6 @@
 using Infrastructure;
 using Application;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,5 +29,13 @@ app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();
 });
+
+app.UseStaticFiles(
+    new StaticFileOptions
+    {
+        FileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.ContentRootPath, "Resources")),
+        RequestPath = "/files"
+    });
+app.UseCors();
 app.Run();
 

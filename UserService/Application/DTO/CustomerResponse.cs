@@ -10,4 +10,5 @@ public class CustomerResponse
     public string LastName { get; set; }
     public string? ProfilePicUrl { get; set; }
     public DateTime DateOfBirth { get; set; }
+    public string ImageBase64Reperesentation { get; set; }
 }

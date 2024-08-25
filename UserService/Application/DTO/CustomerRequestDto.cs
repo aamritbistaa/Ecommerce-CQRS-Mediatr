@@ -1,9 +1,12 @@
+using Microsoft.AspNetCore.Http;
 using System;
+using System.Buffers.Text;
 
 namespace Application.DTO;
 
 public class CreateCustomerRequestDto
 {
+    public IFormFile ProfilePicture { get; set; }
     public string FirstName { get; set; }
     public string? MiddleName { get; set; }
     public string LastName { get; set; }

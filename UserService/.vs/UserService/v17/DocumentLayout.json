@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\userservice\\application\\helper\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|solutionrelative:application\\helper\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\userservice\\application\\manager\\implementation\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|solutionrelative:application\\manager\\implementation\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\userservice\\application\\dto\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|solutionrelative:application\\dto\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\userservice\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Helper\\FileService.cs",
+              "RelativeDocumentMoniker": "Application\\Helper\\FileService.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Helper\\FileService.cs",
+              "RelativeToolTip": "Application\\Helper\\FileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T20:29:09.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerRequestDto.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\DTO\\CustomerRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\CustomerRequestDto.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\DTO\\CustomerRequestDto.cs",
+              "RelativeToolTip": "Application\\DTO\\CustomerRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T20:15:44.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerImplementation.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Manager\\Implementation\\CustomerImplementation.cs",
+              "RelativeDocumentMoniker": "Application\\Manager\\Implementation\\CustomerImplementation.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Manager\\Implementation\\CustomerImplementation.cs",
+              "RelativeToolTip": "Application\\Manager\\Implementation\\CustomerImplementation.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAIwD8AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T20:15:37.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-25T20:15:29.269Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

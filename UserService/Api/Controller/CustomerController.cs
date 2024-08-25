@@ -35,7 +35,7 @@ namespace Api.Controller
             return response;
         }
         [HttpPost("CreateCustomer")]
-        public async Task<ServiceResult<Guid?>> CreateCustomer(CreateCustomerRequestDto request)
+        public async Task<ServiceResult<Guid?>> CreateCustomer([FromForm] CreateCustomerRequestDto request)
         {
             var response = await _customerManager.CreateCustomer(request);
             return response;

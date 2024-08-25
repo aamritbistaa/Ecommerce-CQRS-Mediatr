@@ -15,6 +15,23 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.1",
+          "System.IO.Pipelines": "5.0.2"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/8.0.8": {
         "type": "package",
         "dependencies": {
@@ -852,7 +869,7 @@
       "System.IO.Pipelines/6.0.3": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.IO.Pipelines.dll": {
             "related": ".xml"
           }
         },
@@ -987,6 +1004,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Domain": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
           "Microsoft.Extensions.DependencyInjection": "8.0.0"
         },
         "compile": {
@@ -994,7 +1012,10 @@
         },
         "runtime": {
           "bin/placeholder/Application.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Domain/1.0.0": {
         "type": "project",
@@ -1040,6 +1061,25 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "sha512": "3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.AspNetCore.OpenApi/8.0.8": {
@@ -2810,11 +2850,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Api\\Api.csproj",
+      "projectUniqueName": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Api\\Api.csproj",
+      "projectPath": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Api\\Api.csproj",
       "packagesPath": "C:\\Users\\AmritBista\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Api\\obj\\",
+      "outputPath": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AmritBista\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2832,8 +2872,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Application.csproj": {
-              "projectPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Application.csproj"
+            "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Application.csproj": {
+              "projectPath": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Application.csproj"
             },
             "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Infrastructure\\Infrastructure.csproj": {
               "projectPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Infrastructure\\Infrastructure.csproj"
