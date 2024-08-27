@@ -17,7 +17,7 @@ public static class CustomerMapper
                 base64ImageRepresentation = Convert.ToBase64String(imageArray);
             }
         }
-        catch (System.Exception)
+        catch (Exception)
         {
 
         }

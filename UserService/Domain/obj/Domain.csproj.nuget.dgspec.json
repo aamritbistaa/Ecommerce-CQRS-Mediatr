@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Domain\\Domain.csproj": {}
+    "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Domain\\Domain.csproj": {
+    "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Domain\\Domain.csproj",
+        "projectPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\AmritBista\\.nuget\\packages\\",
-        "outputPath": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Domain\\obj\\",
+        "outputPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AmritBista\\AppData\\Roaming\\NuGet\\NuGet.Config",

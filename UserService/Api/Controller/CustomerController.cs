@@ -17,15 +17,10 @@ namespace Api.Controller
         {
             _customerManager = customerManager;
         }
-        [HttpGet("Test")]
-        public string Test()
+        [HttpPost("GetAllCustomer")]
+        public async Task<ServiceResult<ListResponseDto<List<CustomerResponse>>>> GetAllCustomer(CustomerListRequestFilter requestFilter)
         {
-            return "Hello";
-        }
-        [HttpGet("GetAllCustomer")]
-        public async Task<ServiceResult<List<CustomerResponse>>> GetAllCustomer()
-        {
-            var response = await _customerManager.ListAllCustomer();
+            var response = await _customerManager.ListAllCustomer(requestFilter);
             return response;
         }
         [HttpGet("GetCustomerById")]

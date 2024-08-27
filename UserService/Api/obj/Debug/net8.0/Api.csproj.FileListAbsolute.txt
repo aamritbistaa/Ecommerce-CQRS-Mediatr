@@ -19,6 +19,8 @@ D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Microsof
 D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
 D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Npgsql.dll
+D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -82,7 +84,9 @@ D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\zh-Hans\
 D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Application.dll
 D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Domain.dll
+D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Infrastructure.dll
 D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Application.pdb
+D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Infrastructure.pdb
 D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Domain.pdb
 D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\obj\Debug\net8.0\Api.csproj.AssemblyReference.cache
 D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\obj\Debug\net8.0\Api.GeneratedMSBuildEditorConfig.editorconfig
@@ -106,7 +110,3 @@ D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\obj\Debug\net8.0\refint\A
 D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\obj\Debug\net8.0\Api.pdb
 D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\obj\Debug\net8.0\Api.genruntimeconfig.cache
 D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\obj\Debug\net8.0\ref\Api.dll
-D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Npgsql.dll
-D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Infrastructure.dll
-D:\source\repos\Ecommerce-CQRS-Mediatr\UserService\Api\bin\Debug\net8.0\Infrastructure.pdb

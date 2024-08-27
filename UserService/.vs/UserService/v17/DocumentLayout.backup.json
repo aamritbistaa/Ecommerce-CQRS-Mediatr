@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\userservice\\application\\dto\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|solutionrelative:application\\dto\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87C3F915-5040-4F04-9C40-80E02A6E9CED}|Domain\\Domain.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\userservice\\domain\\validation\\customdatevalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C3F915-5040-4F04-9C40-80E02A6E9CED}|Domain\\Domain.csproj|solutionrelative:domain\\validation\\customdatevalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E7D214B-D5E3-45FA-9996-E8C75DD6F459}|Api\\Api.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\userservice\\api\\controller\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E7D214B-D5E3-45FA-9996-E8C75DD6F459}|Api\\Api.csproj|solutionrelative:api\\controller\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\userservice\\application\\dto\\customerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|solutionrelative:application\\dto\\customerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE294B67-793C-4FF7-8483-BC9B2F76BDE9}|Infrastructure\\Infrastructure.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\userservice\\infrastructure\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE294B67-793C-4FF7-8483-BC9B2F76BDE9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E7D214B-D5E3-45FA-9996-E8C75DD6F459}|Api\\Api.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\userservice\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E7D214B-D5E3-45FA-9996-E8C75DD6F459}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\userservice\\application\\manager\\implementation\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|solutionrelative:application\\manager\\implementation\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\userservice\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|d:\\source\\repos\\ecommerce-cqrs-mediatr\\userservice\\application\\dto\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB534D20-5CAA-412C-9630-D27B72BDF5B5}|Application\\Application.csproj|solutionrelative:application\\dto\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,41 +43,91 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomerRequestDto.cs",
-              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\DTO\\CustomerRequestDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTO\\CustomerRequestDto.cs",
-              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\DTO\\CustomerRequestDto.cs",
-              "RelativeToolTip": "Application\\DTO\\CustomerRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Title": "CustomDateValidationAttribute.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Domain\\Validation\\CustomDateValidationAttribute.cs",
+              "RelativeDocumentMoniker": "Domain\\Validation\\CustomDateValidationAttribute.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Domain\\Validation\\CustomDateValidationAttribute.cs",
+              "RelativeToolTip": "Domain\\Validation\\CustomDateValidationAttribute.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T20:15:44.973Z",
+              "WhenOpened": "2024-08-27T16:59:23.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CustomerImplementation.cs",
-              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Manager\\Implementation\\CustomerImplementation.cs",
-              "RelativeDocumentMoniker": "Application\\Manager\\Implementation\\CustomerImplementation.cs",
-              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Manager\\Implementation\\CustomerImplementation.cs",
-              "RelativeToolTip": "Application\\Manager\\Implementation\\CustomerImplementation.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowD4AAABDAAAAAAAAAA==",
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Api\\Controller\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Api\\Controller\\CustomerController.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Api\\Controller\\CustomerController.cs",
+              "RelativeToolTip": "Api\\Controller\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T20:15:37.409Z",
+              "WhenOpened": "2024-08-27T16:58:45.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "Api\\Program.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Api\\Program.cs",
+              "RelativeToolTip": "Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T16:56:21.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Infrastructure\\Service\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Service\\CustomerService.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Infrastructure\\Service\\CustomerService.cs",
+              "RelativeToolTip": "Infrastructure\\Service\\CustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T14:42:59.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Application",
-              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Application.csproj",
-              "RelativeDocumentMoniker": "Application\\Application.csproj",
-              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Application.csproj",
-              "RelativeToolTip": "Application\\Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-25T20:15:29.269Z",
+              "Title": "CustomerResponse.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\DTO\\CustomerResponse.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\CustomerResponse.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\DTO\\CustomerResponse.cs",
+              "RelativeToolTip": "Application\\DTO\\CustomerResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T05:54:33.324Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerRequestDto.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\DTO\\CustomerRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\CustomerRequestDto.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\DTO\\CustomerRequestDto.cs",
+              "RelativeToolTip": "Application\\DTO\\CustomerRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T05:54:32.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerImplementation.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Manager\\Implementation\\CustomerImplementation.cs",
+              "RelativeDocumentMoniker": "Application\\Manager\\Implementation\\CustomerImplementation.cs",
+              "ToolTip": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Manager\\Implementation\\CustomerImplementation.cs",
+              "RelativeToolTip": "Application\\Manager\\Implementation\\CustomerImplementation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T05:53:29.625Z"
             }
           ]
         }

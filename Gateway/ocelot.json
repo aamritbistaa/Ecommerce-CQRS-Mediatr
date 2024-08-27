@@ -19,7 +19,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "7217"
+          "Port": "44357"
         }
       ],
       "UpstreamPathTemplate": "/gateway/Product/{everything}",
@@ -44,7 +44,7 @@
         {
           "Name": "Product Api",
           "Version": "v1",
-          "Url": "https://localhost:7217/swagger/v1/swagger.json"
+          "Url": "https://localhost:44357/swagger/v1/swagger.json"
         }
       ]
     }

@@ -62,7 +62,6 @@ public class Messages
     public static readonly string ServerTimeOut = "The server took too long to respond.";
     // Use when the server acting as a gateway or proxy did not receive a timely response from the upstream server, typically with a 504 Gateway Timeout status.
 }
-
 public enum StatusCode
 {
     Success = 200,

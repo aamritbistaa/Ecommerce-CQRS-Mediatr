@@ -1,12 +1,13 @@
 using System;
 using Application.Common;
 using Application.DTO;
+using static Application.Manager.Implementation.CustomerImplementation;
 
 namespace Application.Manager.Interface;
 
 public interface ICustomerImplementation
 {
-    Task<ServiceResult<List<CustomerResponse>>> ListAllCustomer();
+    Task<ServiceResult<ListResponseDto<List<CustomerResponse>>>> ListAllCustomer(CustomerListRequestFilter filter);
     Task<ServiceResult<CustomerResponse>> GetCustomerById(Guid id);
     Task<ServiceResult<Guid?>> CreateCustomer(CreateCustomerRequestDto request);
     Task<ServiceResult<bool>> UpdateCustomer(UpdateCustomerRequestDto request);

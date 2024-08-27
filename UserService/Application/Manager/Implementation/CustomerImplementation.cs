@@ -23,24 +23,88 @@ public class CustomerImplementation : ICustomerImplementation
         _factory = factory;
         _fileService = fileService;
     }
-    public async Task<ServiceResult<List<CustomerResponse>>> ListAllCustomer()
+
+    public async Task<ServiceResult<ListResponseDto<List<CustomerResponse>>>> ListAllCustomer(CustomerListRequestFilter filter)
     {
         var customers = await _customerService.ListAllAsync();
         if (customers.Count < 1)
         {
-            return new ServiceResult<List<CustomerResponse>>
+            return new ServiceResult<ListResponseDto<List<CustomerResponse>>>()
             {
                 StatusCode = StatusCode.NoContent,
                 Message = Messages.NoContent,
-                Data = new List<CustomerResponse>()
+                Data = new ListResponseDto<List<CustomerResponse>>()
             };
         }
+
+        //* Filtering
+        if (!string.IsNullOrEmpty(filter.CreatedDateLowerLimit))
+        {
+            customers = customers.Where(x => x.CreatedDate.Date >= DateTime.Parse(filter.CreatedDateLowerLimit)).ToList();
+        }
+        if (!string.IsNullOrEmpty(filter.CreatedDateUpperLimit))
+        {
+            customers = customers.Where(x => x.CreatedDate.Date <= DateTime.Parse(filter.CreatedDateUpperLimit)).ToList();
+        }
+
         var customerResponse = (from item in customers select CustomerMapper.ECustomerToCustomerResponseMapper(item)).ToList();
-        return new ServiceResult<List<CustomerResponse>>()
+        if (customerResponse.Count < 1)
+        {
+
+            return new ServiceResult<ListResponseDto<List<CustomerResponse>>>()
+            {
+                StatusCode = StatusCode.NoContent,
+                Message = Messages.NoContent,
+                Data = new ListResponseDto<List<CustomerResponse>>(),
+            };
+        }
+
+        //* Sorting
+        if (!string.IsNullOrEmpty(filter?.Sort?.Key))
+        {
+            if (filter.Sort.Key == "CreatedDate")
+            {
+                customers = customers.OrderBy(x => x.CreatedDate).ToList();
+            }
+            else if (filter.Sort.Key == "FirstName")
+            {
+                customers = customers.OrderBy(x => x.FirstName).ToList();
+            }
+            else if (filter.Sort.Key == "LastName")
+            {
+                customers = customers.OrderBy(x => x.LastName).ToList();
+            }
+            else if (filter.Sort.Key == "DateOfBirth")
+            {
+                customers = customers.OrderBy(x => x.DateOfBirth).ToList();
+            }
+            else
+            {
+                return new ServiceResult<ListResponseDto<List<CustomerResponse>>>()
+                {
+                    StatusCode = StatusCode.BadRequest,
+                    Message = Messages.BadRequest,
+                    Data = new ListResponseDto<List<CustomerResponse>>(),
+                };
+            }
+        }
+
+        //* Pagination
+        var data = customerResponse.Skip(filter.Skip).Take(filter.Take).ToList();
+
+        var responseData = new ListResponseDto<List<CustomerResponse>>()
+        {
+            Data = data,
+            Count = customerResponse.Count,
+            Take = filter.Take,
+            Skip = filter.Skip,
+        };
+
+        return new ServiceResult<ListResponseDto<List<CustomerResponse>>>()
         {
             StatusCode = StatusCode.Success,
             Message = Messages.Success,
-            Data = customerResponse,
+            Data = responseData,
         };
     }
     public async Task<ServiceResult<CustomerResponse>> GetCustomerById(Guid id)
@@ -66,7 +130,6 @@ public class CustomerImplementation : ICustomerImplementation
     public async Task<ServiceResult<Guid?>> CreateCustomer(CreateCustomerRequestDto request)
     {
         //! Validation
-        #region Validation
         var dataWithSameEmail = await _userCredentialsService.GetByEmail(request.Email);
         if (dataWithSameEmail != null)
         {
@@ -77,7 +140,6 @@ public class CustomerImplementation : ICustomerImplementation
                 Data = null
             };
         }
-        #endregion
 
         try
         {
@@ -94,12 +156,14 @@ public class CustomerImplementation : ICustomerImplementation
 
             var imageName = await _fileService.UploadFileAsync(request.ProfilePicture);
 
+            var dateOfBirth = DateTime.Parse(request.DateOfBirth);
+
             var customer = new ECustomer()
             {
                 FirstName = request.FirstName,
                 LastName = request.LastName,
                 MiddleName = request.MiddleName,
-                DateOfBirth = request.DateOfBirth,
+                DateOfBirth = dateOfBirth,
                 ProfilePicture = imageName
             };
             var customerResponse = await _customerService.AddItemAsync(customer);
@@ -140,6 +204,8 @@ public class CustomerImplementation : ICustomerImplementation
                 Data = false
             };
         }
+
+        customer.DateOfBirth = DateTime.Parse(request.DateOfBirth);
         customer.UpdatedDate = DateTime.Now;
         customer.FirstName = request.FirstName;
         customer.LastName = request.LastName;
