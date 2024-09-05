@@ -10,4 +10,6 @@ public class EUserCredentials : BaseEntity
     public string Password { get; set; }
     public DateTime LastActive { get; set; }
     public UserRole Role { get; set; }
+    public UserStatus UserStatus { get; set; } = UserStatus.Unverified;
+    public string? OTP { get; set; }
 }

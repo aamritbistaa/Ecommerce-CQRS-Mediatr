@@ -19,9 +19,7 @@ public class UserCredentialsService : IUserCredentialsService
     public async Task<EUserCredentials?> GetByEmail(string email)
     {
         var data = await _factory.GetInstance<EUserCredentials>().ListAll();
-
         return data.FirstOrDefault(x => x.Email == email);
-
     }
     public async Task<EUserCredentials> GetDataAsync(Guid Id)
     {

@@ -243,11 +243,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Application.csproj",
+      "projectUniqueName": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Application.csproj",
+      "projectPath": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\AmritBista\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\obj\\",
+      "outputPath": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AmritBista\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -265,8 +265,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Domain\\Domain.csproj"
+            "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Domain\\Domain.csproj": {
+              "projectPath": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Domain\\Domain.csproj"
             }
           }
         }

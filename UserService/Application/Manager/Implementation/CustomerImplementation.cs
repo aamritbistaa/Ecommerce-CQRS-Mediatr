@@ -13,14 +13,12 @@ public class CustomerImplementation : ICustomerImplementation
     private readonly ICustomerService _customerService;
     private readonly IUserCredentialsService _userCredentialsService;
     private readonly IUserService _userService;
-    private readonly IServiceFactory _factory;
     private readonly IFileService _fileService;
-    public CustomerImplementation(ICustomerService customerService, IUserCredentialsService userCredentialsService, IUserService userService, IServiceFactory factory, IFileService fileService)
+    public CustomerImplementation(ICustomerService customerService, IUserCredentialsService userCredentialsService, IUserService userService, IFileService fileService)
     {
         _customerService = customerService;
         _userCredentialsService = userCredentialsService;
         _userService = userService;
-        _factory = factory;
         _fileService = fileService;
     }
 
@@ -143,7 +141,7 @@ public class CustomerImplementation : ICustomerImplementation
 
         try
         {
-            _factory.BeginTransaction();
+            _customerService.factory.BeginTransaction();
             var customerCredentials = new EUserCredentials()
             {
                 Id = Guid.NewGuid(),
@@ -173,7 +171,7 @@ public class CustomerImplementation : ICustomerImplementation
                 UserCredentialsId = customerCredentialsResponse.Id,
             };
             var userResponse = await _userService.AddItemAsync(user);
-            _factory.Commit();
+            _customerService.factory.Commit();
             return new ServiceResult<Guid?>
             {
                 StatusCode = StatusCode.Created,
@@ -183,7 +181,7 @@ public class CustomerImplementation : ICustomerImplementation
         }
         catch (Exception ex)
         {
-            _factory.RollBack();
+            _customerService.factory.RollBack();
             return new ServiceResult<Guid?>
             {
                 StatusCode = StatusCode.ServerError,

@@ -5,6 +5,7 @@ namespace Domain.Interface;
 
 public interface ICustomerService
 {
+    IServiceFactory factory { get; }
     Task<List<ECustomer>> ListAllAsync();
     Task<ECustomer> GetDataAsync(Guid Id);
     Task<ECustomer> AddItemAsync(ECustomer item);

@@ -8,6 +8,18 @@ public class CustomerService : ICustomerService
 {
     private readonly IServiceFactory _factory;
 
+    public IServiceFactory factory
+    {
+        get
+        {
+            return _factory;
+        }
+        set
+        {
+
+        }
+    }
+
     public CustomerService(IServiceFactory serviceFactory)
     {
         _factory = serviceFactory;
