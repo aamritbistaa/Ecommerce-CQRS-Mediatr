@@ -13,5 +13,6 @@ public static class ServiceExtension
         service.AddTransient<IFileService, FileService>();
         service.AddScoped<ICustomerImplementation, CustomerImplementation>();
         service.AddScoped<IAuthenticationImplementaton, AuthenticationImplementation>();
+        service.AddScoped<IAddressImplementation, AddressImplementation>();
     }
 }

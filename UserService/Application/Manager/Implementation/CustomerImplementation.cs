@@ -155,6 +155,11 @@ public class CustomerImplementation : ICustomerImplementation
             var imageName = await _fileService.UploadFileAsync(request.ProfilePicture);
 
             var dateOfBirth = DateTime.Parse(request.DateOfBirth);
+            var address = new EShippingAddress
+            {
+                // StreetAddress = request.StreetAddress,
+            };
+            //Todo : create shipping service and create new model and update it in customer
 
             var customer = new ECustomer()
             {
@@ -208,6 +213,7 @@ public class CustomerImplementation : ICustomerImplementation
         customer.FirstName = request.FirstName;
         customer.LastName = request.LastName;
         customer.MiddleName = request.MiddleName;
+        customer.UpdatedDate = DateTime.Now;
         var response = await _customerService.UpdateItemAsync(customer);
         if (response == true)
         {

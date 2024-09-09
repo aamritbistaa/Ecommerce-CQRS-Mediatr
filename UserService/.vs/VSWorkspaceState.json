@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Api",
+    "\\Api\\Controller",
+    "\\Application",
+    "\\Domain\\Interface",
+    "\\Domain\\Validation"
+  ],
+  "SelectedNode": "\\UserService.sln",
+  "PreviewInSolutionExplorer": false
+}

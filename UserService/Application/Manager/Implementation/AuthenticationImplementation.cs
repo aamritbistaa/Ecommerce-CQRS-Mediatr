@@ -118,10 +118,13 @@ public class AuthenticationImplementation : IAuthenticationImplementaton
                 Data = "Please try again."
             };
         }
-        if (user.OTP == request.OTP)
+        if (!string.IsNullOrEmpty(request.OTP) && user.OTP == request.OTP)
         {
             user.UserStatus = UserStatus.Verified;
             await _userCredentialsService.UpdateItemAsync(user);
+
+            await Task.Run(() => ResetOTP(request.Email));
+
             return new ServiceResult<string>
             {
                 StatusCode = StatusCode.Success,
@@ -135,5 +138,16 @@ public class AuthenticationImplementation : IAuthenticationImplementaton
             Message = Messages.BadRequest,
             Data = "Invalid!! request input error"
         };
+    }
+    private async Task ResetOTP(string email)
+    {
+        var user = await _userCredentialsService.GetByEmail(email);
+        if (user == null)
+        {
+            return;
+        }
+        user.OTP = null;
+        await _userCredentialsService.UpdateItemAsync(user);
+        return;
     }
 }

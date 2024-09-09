@@ -19,6 +19,7 @@ public static class ServiceExtension
         service.AddScoped<IUserService, UserService>();
         service.AddScoped<IUserCredentialsService, UserCredentialsService>();
         service.AddScoped<ICustomerService, CustomerService>();
+        service.AddScoped<ICountryService, CountryService>();
     }
 
 }

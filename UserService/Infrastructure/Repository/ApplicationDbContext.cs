@@ -19,4 +19,7 @@ public class ApplicationDbContext : DbContext
     public DbSet<EUserCredentials> UsersCredentials { get; set; }
     public DbSet<ECustomer> Customers { get; set; }
     public DbSet<EVendor> Vendors { get; set; }
+    public DbSet<ECityAddress> CityAddresses { get; set; }
+    public DbSet<ECountryAddress> CountryAddresses { get; set; }
+    public DbSet<EShippingAddress> ShippingAddresses { get; set; }
 }

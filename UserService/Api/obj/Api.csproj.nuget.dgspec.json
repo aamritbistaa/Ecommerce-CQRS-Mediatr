@@ -32,8 +32,8 @@
               "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Application.csproj": {
                 "projectPath": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Application\\Application.csproj"
               },
-              "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Infrastructure\\Infrastructure.csproj"
+              "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -236,14 +236,14 @@
         }
       }
     },
-    "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Infrastructure\\Infrastructure.csproj": {
+    "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\AmritBista\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Infrastructure\\obj\\",
+        "outputPath": "d:\\source\\repos\\Ecommerce-CQRS-Mediatr\\UserService\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AmritBista\\AppData\\Roaming\\NuGet\\NuGet.Config",
