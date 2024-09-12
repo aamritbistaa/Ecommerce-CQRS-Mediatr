@@ -157,7 +157,7 @@ public class CustomerImplementation : ICustomerImplementation
             var dateOfBirth = DateTime.Parse(request.DateOfBirth);
             var address = new EShippingAddress
             {
-                // StreetAddress = request.StreetAddress,
+                StreetName = request.StreetAddress,
             };
             //Todo : create shipping service and create new model and update it in customer
 
@@ -214,6 +214,7 @@ public class CustomerImplementation : ICustomerImplementation
         customer.LastName = request.LastName;
         customer.MiddleName = request.MiddleName;
         customer.UpdatedDate = DateTime.Now;
+
         var response = await _customerService.UpdateItemAsync(customer);
         if (response == true)
         {

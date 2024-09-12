@@ -36,4 +36,5 @@ public class UpdateCustomerRequestDto
     public string LastName { get; set; }
     [CustomDateValidation]
     public string DateOfBirth { get; set; }
+    public string StreetAddress { get; set; }
 }
